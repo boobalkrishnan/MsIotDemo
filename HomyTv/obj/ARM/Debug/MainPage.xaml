@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="HomyTv.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HomyTv"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="White" >
+        <Frame x:ConnectionId='1' x:Name="frame1" Content="Room Selection" HorizontalAlignment="Left" Height="595" Margin="38,84,0,0" VerticalAlignment="Top" Width="394" BorderThickness="2" BorderBrush="Black" FontWeight="Bold"/>
+        <Frame x:ConnectionId='2' x:Name="frame" Content="Device Selection" HorizontalAlignment="Left" Height="595" Margin="525,84,0,0" VerticalAlignment="Top" Width="427" BorderThickness="2" BorderBrush="Black" FontWeight="Bold"/>
+        <Button x:ConnectionId='3' x:Name="Tool_10" Content="Hall" HorizontalAlignment="Left" Height="68" Margin="104,128,0,0" VerticalAlignment="Top" Width="254"                       BorderBrush="Black"/>
+        <Button x:ConnectionId='4' x:Name="Tool_20" Content="BedRoom" HorizontalAlignment="Left" Height="68" Margin="104,228,0,0" VerticalAlignment="Top" Width="254"                       BorderBrush="Black"/>
+        <Button x:ConnectionId='5' x:Name="Tool_30" Content="Kitchen" HorizontalAlignment="Left" Height="68" Margin="104,328,0,0" VerticalAlignment="Top" Width="254"                       BorderBrush="Black"/>
+        <Button x:ConnectionId='6' x:Name="Tool_21" Content="Light 2" HorizontalAlignment="Left" Height="68" Margin="610,228,0,0" VerticalAlignment="Top" Width="254"                         BorderBrush="Black"/>
+        <Button x:ConnectionId='7' x:Name="Tool_31" Content="Light 3" HorizontalAlignment="Left" Height="68" Margin="610,328,0,0" VerticalAlignment="Top" Width="254"                       BorderBrush="Black"/>
+        <Button x:ConnectionId='8' x:Name="Tool_41" Content="Fan 1" HorizontalAlignment="Left" Height="36" Margin="610,436,0,0" VerticalAlignment="Top" Width="254"                         BorderBrush="Black"/>
+        <TextBox x:ConnectionId='9' x:Name="Tool_53" HorizontalAlignment="Left" Height="34" Margin="780,477,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="84"/>
+        <Button x:ConnectionId='10' x:Name="Tool_51" Content="-" HorizontalAlignment="Left" Height="34" Margin="610,477,0,0" VerticalAlignment="Top" Width="80"                       BorderBrush="Black"/>
+        <Button x:ConnectionId='11' x:Name="Tool_52" Content="+" HorizontalAlignment="Left" Height="34" Margin="695,477,0,0" VerticalAlignment="Top" Width="80"                       BorderBrush="Black"/>
+        <Button x:ConnectionId='12' x:Name="Tool_71" Content="-" HorizontalAlignment="Left" Height="42" Margin="610,588,0,0" VerticalAlignment="Top" Width="80"                       BorderBrush="Black"/>
+        <Button x:ConnectionId='13' x:Name="Tool_72" Content="+" HorizontalAlignment="Left" Height="42" Margin="695,588,0,0" VerticalAlignment="Top" Width="80"                       BorderBrush="Black"/>
+        <Button x:ConnectionId='14' x:Name="Tool_61" Content="Fan 2" HorizontalAlignment="Left" Height="36" Margin="610,547,0,0" VerticalAlignment="Top" Width="254"                       BorderBrush="Black"/>
+        <TextBox x:ConnectionId='15' x:Name="Tool_73" HorizontalAlignment="Left" Height="42" Margin="780,588,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="84"/>
+        <Button x:ConnectionId='16' x:Name="Tool_11" Content="Light 1" HorizontalAlignment="Left" Height="68" Margin="610,128,0,0" VerticalAlignment="Top" Width="254"                       BorderBrush="Black" Background="#33000000"/>
+        <TextBox x:ConnectionId='17' x:Name="textBox" HorizontalAlignment="Left" Height="64" TextWrapping="Wrap" Text="My Home" VerticalAlignment="Top" Width="1280" FontWeight="Bold" FontStyle="Italic" FontStretch="SemiCondensed" FontSize="32" TextAlignment="Center" Foreground="#FF092FD8" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" UseLayoutRounding="True" IsReadOnly="True" SelectionHighlightColor="{x:Null}">
+            <TextBox.BorderBrush>
+                <SolidColorBrush Color="Black"/>
+            </TextBox.BorderBrush>
+            <TextBox.Background>
+                <SolidColorBrush Color="#FF910000"/>
+            </TextBox.Background>
+        </TextBox>
+    </Grid>
+</Page>
+
